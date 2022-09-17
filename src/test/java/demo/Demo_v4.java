@@ -24,6 +24,7 @@ public class Demo_v4 {
 		// get the current URL of the page
 		String URL = driver.getCurrentUrl();
 		System.out.print(URL);
+		System.out.print("Welcome");
 		// get the title of the page
 		String title = driver.getTitle();
 		System.out.println(title);
